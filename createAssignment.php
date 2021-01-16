@@ -2,7 +2,7 @@
 include "include.php";
 
 $database->insert("assignments", [
-	"name" => $_POST['subject_id'],
+	"subject_id" => $_POST['subject_id'],
 	"title" => $_POST['title'],
 	"detail" => $_POST['detail'],
 	"due_date" => $_POST['due_date'],
