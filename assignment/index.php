@@ -1,5 +1,6 @@
 <?php
-include "include.php";
+include "../includes/config.php";
+
 $datas = $database->select("assignments", 
 [
     "[>]subjects" => ["subject_id" => "id"],

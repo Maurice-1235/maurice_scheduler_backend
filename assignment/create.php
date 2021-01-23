@@ -1,5 +1,5 @@
 <?php
-include "include.php";
+include "../includes/config.php";
 
 $database->insert("assignments", [
 	"subject_id" => $_POST['subject_id'],

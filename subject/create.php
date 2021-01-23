@@ -1,7 +1,5 @@
 <?php
-include "include.php";
-
-print_r($_POST);
+include "../includes/config.php";
 
 $database->insert("subjects", [
 	"name" => $_POST['name'],

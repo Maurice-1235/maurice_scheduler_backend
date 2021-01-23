@@ -15,7 +15,7 @@ header("Access-Control-Allow-Headers: Content-Type, origin");
 //     }
 //     exit;
 //   }
-require  'Medoo.php';
+require  '../lib/Medoo.php';
 // Using Medoo namespace
 use Medoo\Medoo;
  
